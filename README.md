@@ -3,7 +3,7 @@
 For this project, we will write an ERC20-compliant smart contract to create your own token on a local Hardhat network. To get started, we will use the Hardhat boilerplate project that is shown in the Hardhat Website itself, which provides a solid foundation. Once you have set up the Hardhat project, you can begin writing your smart contract. The contract should be compatible with Remix, allowing easy interaction. As the contract owner, you should have the ability to mint tokens to a specified address. Additionally, any user should be able to burn and transfer tokens to other addresses.
 
 ## Deployment Instructions 
-1. open a command prompt and run this command: $ mkdir avalanche-project to create a named "avalanche-project" in the location.
+1. open a command prompt and run this command: $ mkdir "YOUR PROJECT NAME" to create a named "YOUR PROJECT" in the location.
 2. change the directory with this command: $ cd avalanche-project
 3. run this command to create a new package.json: $$ npm init -y
 4. install the hardhat development environment: $ npm install --save-dev hardhat
@@ -85,12 +85,11 @@ main().catch((error) => {
 });
 ```
 
-10. Set up a Avalanche network in your Metamask by adding a new network with these details (Network Name: Avalanche Fuji C-Chain New RPC URL: https://api.avax-test.network/ext/bc/C/rpc ChainID: 43113 Symbol: AVAX Explorer: https://testnet.snowtrace.io/)
-11. Go to the Avalanche Testnet Faucet website, and request 2 AVAX to your wallet account in order for the contract to run.
-12. run the script with the fuji network with this command: $ npx hardhat run scripts/deploy.js --network fuji
-13. Then go to the remix ethereum website, and copy the DegenToken.sol
-14. In the deployment tab, there is an "At Address" tab there and copy the contract address there as well.
-15. You can now do the functions!
+10. Go to the Avalanche Testnet Faucet website, and request 2 AVAX to your wallet account in order for the contract to run.
+11. run the script with the fuji network with this command: $ npx hardhat run scripts/deploy.js --network fuji
+12. Then go to the remix ethereum website, and copy the DegenToken.sol
+13. In the deployment tab, there is an "At Address" tab there and copy the contract address there as well.
+14. You can now do the functions!
 ### Degen.sol
 ```solidity
 // SPDX-License-Identifier: MIT
