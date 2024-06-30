@@ -3,8 +3,8 @@
 For this project, we will write an ERC20-compliant smart contract to create your own token on a local Hardhat network. To get started, we will use the Hardhat boilerplate project that is shown in the Hardhat Website itself, which provides a solid foundation. Once you have set up the Hardhat project, you can begin writing your smart contract. The contract should be compatible with Remix, allowing easy interaction. As the contract owner, you should have the ability to mint tokens to a specified address. Additionally, any user should be able to burn and transfer tokens to other addresses.
 
 ## Deployment Instructions 
-1. open a command prompt and run this command: $ mkdir "YOUR PROJECT NAME" to create a named "YOUR PROJECT" in the location.
-2. change the directory with this command: $ cd avalanche-project
+1. open a command prompt and run this command: $ mkdir "YOUR PROJECT NAME" to create a named "YOUR PROJECT NAME" in the location.
+2. change the directory with this command: $ cd "YOUR PROJECT NAME"
 3. run this command to create a new package.json: $$ npm init -y
 4. install the hardhat development environment: $ npm install --save-dev hardhat
 5. to run the hardhat, run this command: $ npx hardhat
