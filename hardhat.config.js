@@ -34,7 +34,6 @@ module.exports = {
       chainId: 43113,
       accounts: [
         // YOUR PRIVATE KEY HERE
-    
       ],
     },
     mainnet: {
@@ -43,7 +42,6 @@ module.exports = {
       chainId: 43114,
       accounts: [
         // YOUR PRIVATE KEY HERE
-        
       ],
     },
   },
